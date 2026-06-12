@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Robozin LN SHOW</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>🔥 Robozin LN SHOW - GOD 🔥</h1>
+
+<div class="card">
+
+<label>Ataques Perigosos Casa</label>
+<input id="atkHome" type="number">
+
+<label>Ataques Perigosos Fora</label>
+<input id="atkAway" type="number">
+
+<label>Escanteios Casa</label>
+<input id="cornerHome" type="number">
+
+<label>Escanteios Fora</label>
+<input id="cornerAway" type="number">
+
+<label>Posse Casa (%)</label>
+<input id="posseHome" type="number">
+
+<label>Chutes no Gol Casa</label>
+<input id="shotHome" type="number">
+
+<label>Chutes no Gol Fora</label>
+<input id="shotAway" type="number">
+
+<button onclick="analisar()">ANALISAR</button>
+
+</div>
+
+<canvas id="grafico"></canvas>
+
+<div class="card resultado">
+<h2>📊 Leitura do Robô</h2>
+<p id="saida">Aguardando...</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
